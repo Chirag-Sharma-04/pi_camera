@@ -1,0 +1,2 @@
+[console_scripts]
+camera_pub = pi_camera.camera_pub:main
