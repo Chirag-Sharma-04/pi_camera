@@ -13,7 +13,7 @@ class PiCameraPublisher(Node):
         # Create publisher
         self.publisher_ = self.create_publisher(
             CompressedImage,
-            '/image/compressed',
+            'drone/image/compressed',
             10
         )
 
