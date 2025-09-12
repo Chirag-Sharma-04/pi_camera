@@ -22,7 +22,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-		" camera_pub = pi_camera.camera_pub:main "
+		"camera_pub=pi_camera.camera_pub:main"
         ],
     },
 )
